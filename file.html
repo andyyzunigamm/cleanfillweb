@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>CLEANFILL — Refill your ritual.</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <meta name="description" content="CLEANFILL presenta una nueva forma de comprar productos de cuidado personal a granel mediante tienda móvil y envases reutilizables." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#inicio" class="logo" aria-label="CLEANFILL logotipo">
+        <svg width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"  fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="32" cy="32" r="30" stroke="#3B5A40" stroke-width="4" />
+          <path d="M21 32 L32 43 L43 21" stroke="#3B5A40" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>CLEANFILL</span>
+      </a>
+      <nav class="nav-main" aria-label="Menú principal">
+        <button id="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Abrir menú">
+          <span class="hamburger"></span>
+        </button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#presentacion" class="nav-link">La Marca</a></li>
+          <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+          <li><a href="#como-funciona" class="nav-link">Cómo funciona</a></li>
+          <li><a href="#tienda-movil" class="nav-link">La Tienda</a></li>
+          <li><a href="#valores" class="nav-link">Valores</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre CLEANFILL</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECCIÓN 1 — INICIO / HERO -->
+    <section id="inicio" class="hero-section" aria-label="Presentación principal">
+      <div class="hero-content container">
+        <div class="hero-text">
+          <h1 class="hero-title">CLEANFILL</h1>
+          <p class="hero-slogan">Refill your ritual.</p>
+          <p class="hero-subtitle">Redefiniendo la compra de productos de cuidado personal con recargas móviles y envases reutilizables.</p>
+          <div class="hero-buttons">
+            <a href="#catalogo" class="btn btn-primary">Descubre nuestros productos</a>
+            <a href="#como-funciona" class="btn btn-secondary">¿Cómo funciona?</a>
+          </div>
+        </div>
+        <figure class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=600&q=80" alt="Botellas reutilizables con productos de cuidado personal sobre fondo natural y blanco cálido" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2 — PRESENTACIÓN DE LA MARCA -->
+    <section id="presentacion" class="presentacion container" aria-labelledby="presentacion-title">
+      <h2 id="presentacion-title" class="section-title">¿Qué es CLEANFILL?</h2>
+      <p class="section-text">
+        CLEANFILL propone una experiencia única y consciente para adquirir productos de cuidado personal. Nuestra tienda móvil lleva directamente a tu comunidad productos a granel y recargas, para que utilices envases reutilizables y adquieras solo la cantidad que necesitas. Refill your ritual.
+      </p>
+    </section>
+
+    <!-- SECCIÓN 3 — NUESTRO CATÁLOGO -->
+    <section id="catalogo" class="catalogo container" aria-labelledby="catalogo-title">
+      <h2 id="catalogo-title" class="section-title">Nuestro Catálogo</h2>
+      <div class="catalogo-grid">
+        <!-- Cuidado capilar -->
+        <article class="catalogo-card">
+          <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80" alt="Champú y acondicionador junto a plantas verdes" loading="lazy" />
+          <h3>Cuidado capilar</h3>
+          <p>Champú, acondicionadores y tratamientos para mantener tu cabello saludable y brillante.</p>
+          <button class="btn btn-explore" aria-label="Explorar cuidado capilar">Explorar</button>
+        </article>
+
+        <!-- Cuidado corporal -->
+        <article class="catalogo-card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Frascos con crema corporal y loción sobre tabla madera clara" loading="lazy" />
+          <h3>Cuidado corporal</h3>
+          <p>Jabones, geles, cremas y lociones para hidratar y cuidar tu piel día a día.</p>
+          <button class="btn btn-explore" aria-label="Explorar cuidado corporal">Explorar</button>
+        </article>
+
+        <!-- Higiene personal -->
+        <article class="catalogo-card">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" alt="Dispensador con jabón líquido sobre lavabo moderno" loading="lazy" />
+          <h3>Higiene personal</h3>
+          <p>Jabones líquidos y productos complementarios para tu higiene diaria.</p>
+          <button class="btn btn-explore" aria-label="Explorar higiene personal">Explorar</button>
+        </article>
+
+        <!-- Cuidado de manos -->
+        <article class="catalogo-card">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80" alt="Botella de jabón para manos y mano lavándose" loading="lazy" />
+          <h3>Cuidado de manos</h3>
+          <p>Jabones y productos especialmente diseñados para proteger y limpiar tus manos.</p>
+          <button class="btn btn-explore" aria-label="Explorar cuidado de manos">Explorar</button>
+        </article>
+
+        <!-- Envases reutilizables -->
+        <article class="catalogo-card">
+          <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=600&q=80" alt="Envases reutilizables de vidrio y plástico reciclado" loading="lazy" />
+          <h3>Envases reutilizables</h3>
+          <p>Envases de diferentes tamaños y diseños, para utilizar en futuras recargas.</p>
+          <button class="btn btn-explore" aria-label="Explorar envases reutilizables">Explorar</button>
+        </article>
+      </div>      
+      <p class="precio-info">Precios estimados para fines académicos. Sujetos a validación.</p>
+    </section>
+
+    <!-- SECCIÓN 4 — CÓMO FUNCIONA -->
+    <section id="como-funciona" class="como-funciona container" aria-labelledby="como-funciona-title">
+      <h2 id="como-funciona-title" class="section-title">¿Cómo funciona CLEANFILL?</h2>
+      <ol class="pasos-lista">
+        <li class="paso-item">
+          <div class="paso-numero">01</div>
+          <div class="paso-contenido">
+            <h3>Nos acercamos</h3>
+            <p>La tienda móvil llega a tu comunidad o ubicación estratégica.</p>
+          </div>
+        </li>
+        <li class="paso-item">
+          <div class="paso-numero">02</div>
+          <div class="paso-contenido">
+            <h3>Eliges</h3>
+            <p>Selecciona el producto de cuidado personal que deseas adquirir.</p>
+          </div>
+        </li>
+        <li class="paso-item">
+          <div class="paso-numero">03</div>
+          <div class="paso-contenido">
+            <h3>Traes tu envase</h3>
+            <p>Usa tu propio envase compatible y limpio, o adquiere uno reutilizable CLEANFILL.</p>
+          </div>
+        </li>
+        <li class="paso-item">
+          <div class="paso-numero">04</div>
+          <div class="paso-contenido">
+            <h3>Decides la cantidad</h3>
+            <p>Elige la cantidad exacta de producto que necesitas.</p>
+          </div>
+        </li>
+        <li class="paso-item">
+          <div class="paso-numero">05</div>
+          <div class="paso-contenido">
+            <h3>Recargamos</h3>
+            <p>Personal experimentado realiza la recarga con dispensadores y procedimientos higiénicos.</p>
+          </div>
+        </li>
+        <li class="paso-item">
+          <div class="paso-numero">06</div>
+          <div class="paso-contenido">
+            <h3>Reutilizas</h3>
+            <p>Paga según cantidad adquirida y conserva tu envase para futuras recargas.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SECCIÓN 5 — LA EXPERIENCIA MÓVIL -->
+    <section id="tienda-movil" class="tienda-movil container" aria-labelledby="tienda-movil-title">
+      <h2 id="tienda-movil-title" class="section-title">La tienda móvil CLEANFILL</h2>
+      <div class="tienda-movil-content">
+        <figure class="mini-van-illustration" aria-hidden="true">
+          <svg width="100%" height="100%" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración conceptual de mini-van tienda móvil CLEANFILL">
+            <rect x="50" y="120" width="540" height="120" rx="25" ry="25" fill="#9FB99F" />
+            <rect x="100" y="60" width="440" height="80" rx="20" ry="20" fill="#DCE6D1" />
+            <rect x="220" y="80" width="50" height="40" fill="#69886E" />
+            <rect x="370" y="80" width="100" height="40" fill="#69886E" />
+            <circle cx="150" cy="250" r="40" fill="#758E78" />
+            <circle cx="490" cy="250" r="40" fill="#758E78" />
+            <circle cx="150" cy="250" r="25" fill="#fff" />
+            <circle cx="490" cy="250" r="25" fill="#fff" />
+            <text x="320" y="140" text-anchor="middle" font-family="Merriweather, serif" font-weight="700" font-size="36" fill="#3B5A40">CLEANFILL</text>
+          </svg>
+        </figure>
+        <div class="tienda-movil-text">
+          <p>
+            Nuestra mini-van es una tienda boutique sobre ruedas que acerca la experiencia CLEANFILL directamente a las comunidades y ubicaciones estratégicas. Con un diseño moderno y ordenado, es sinónimo de confianza, limpieza y cercanía.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 6 — NUESTROS VALORES -->
+    <section id="valores" class="valores container" aria-labelledby="valores-title">
+      <h2 id="valores-title" class="section-title">Nuestros Valores</h2>
+      <div class="valores-grid">
+        <!-- Reutilización -->
+        <article class="valor-card">
+          <svg class="valor-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="32" cy="32" r="30" stroke="#3B5A40" stroke-width="3"/>
+            <path d="M44 20 L32 44 L20 28" stroke="#3B5A40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3>Reutilización</h3>
+          <p>Promovemos el uso repetido de envases para reducir residuos innecesarios.</p>
+        </article>
+        <!-- Flexibilidad -->
+        <article class="valor-card">
+          <svg class="valor-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="32" cy="32" r="30" stroke="#3B5A40" stroke-width="3"/>
+            <path d="M32 12 V52 M20 40 H44" stroke="#3B5A40" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <h3>Flexibilidad</h3>
+          <p>Elige la cantidad justa que deseas, sin imposiciones ni desperdicios.</p>
+        </article>
+        <!-- Cercanía -->
+        <article class="valor-card">
+          <svg class="valor-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="32" cy="32" r="30" stroke="#3B5A40" stroke-width="3"/>
+            <path d="M22 42 L32 32 L42 22" stroke="#3B5A40" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="32" cy="32" r="10" stroke="#3B5A40" stroke-width="2"/>
+          </svg>
+          <h3>Cercanía</h3>
+          <p>Llevamos directamente los productos a tu comunidad, más cerca para ti.</p>
+        </article>
+        <!-- Experiencia -->
+        <article class="valor-card">
+          <svg class="valor-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="32" cy="32" r="30" stroke="#3B5A40" stroke-width="3"/>
+            <path d="M20 32 H44" stroke="#3B5A40" stroke-width="3" stroke-linecap="round"/>
+            <path d="M32 20 V44" stroke="#3B5A40" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <h3>Experiencia</h3>
+          <p>Una compra sencilla, ordenada y atractiva que cambia tu rutina.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 7 — SOBRE CLEANFILL -->
+    <section id="sobre" class="sobre container" aria-labelledby="sobre-title">
+      <h2 id="sobre-title" class="section-title">Sobre CLEANFILL</h2>
+      <p>
+        CLEANFILL es una propuesta empresarial costarricense dedicada a innovar la compra de productos de cuidado personal mediante un modelo móvil, flexible y sostenible. Buscamos posicionarnos como una startup comprometida con la modernidad, la calidad y la cercanía con las comunidades. Nuestro objetivo es impulsar un cambio positivo en la forma de consumir sin comprometer la elegancia ni la practicidad.
+      </p>
+    </section>
+
+    <!-- SECCIÓN 8 — CONTACTO / CIERRE -->
+    <section id="contacto" class="contacto container" aria-labelledby="contacto-title">
+      <h2 id="contacto-title" class="section-title">Contáctanos</h2>
+      <p>
+        Gracias por tu interés en CLEANFILL. Pronto definiremos nuestros canales oficiales de contacto para que puedas comunicarte con nosotros de manera directa. Mientras tanto, te invitamos a conocer nuestra propuesta y reflexionar sobre un consumo más consciente y flexible.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <a href="#inicio" class="footer-logo" aria-label="CLEANFILL logotipo">
+        <svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="32" cy="32" r="30" stroke="#3B5A40" stroke-width="4" />
+          <path d="M21 32 L32 43 L43 21" stroke="#3B5A40" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>CLEANFILL</span>
+      </a>
+      <p class="footer-slogan">Refill your ritual.</p>
+      <nav class="footer-nav" aria-label="Navegación pie de página">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-categorias" aria-label="Categorías del catálogo">
+        <ul>
+          <li>Cuidado capilar</li>
+          <li>Cuidado corporal</li>
+          <li>Higiene personal</li>
+          <li>Cuidado de manos</li>
+          <li>Envases reutilizables</li>
+        </ul>
+      </nav>
+      <p class="footer-note">Propuesta empresarial académica. No constituye una empresa operativa ni registrada.</p>
+    </div>
+  </footer>
+</body>
+</html>
